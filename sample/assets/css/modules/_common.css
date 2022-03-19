@@ -1,0 +1,27 @@
+img {
+  width: 100%;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.sectionTitleWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTitle {
+  display: inline-block;
+}
+
+.sectionTitle::before {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  background: #2da690;
+}
