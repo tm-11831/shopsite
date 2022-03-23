@@ -1,10 +1,44 @@
 .l-header {
-  position: fixed;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.87)
+}
+
+.l-header__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.l-header__wrapperMain{
+  width: 33.3333%;
+  flex: 33.3333%;
   height: 100px;
-  width: 100vw;
-  background: rgba(255, 255, 255, 0.87);
-  z-index: 99;
+}
+
+.l-header__wrapperImage{
+  height: 100px;
+}
+
+.c-headerList{
+  width: 33.3333%;
+  flex: 33.3333%;
+  height: 100px;
+}
+
+.c-headerList__item{
+  width: 40px;
+  height: 45px;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.5;
+  position: static;
+  z-index: 0;
 }

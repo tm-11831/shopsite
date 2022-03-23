@@ -1,23 +1,26 @@
-.service {
+.l-mainBar{
+  background-color: #000000;
+  display: block;
+}
+
+.l-mainBar__box{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+  max-width: 960px;
 }
 
-.serviceImage {
-  width: 50vw;
+.l-mainBar__downroad{
+  max-width: 50%;
+  flex: 0 0 50%;
+  display: block;
+  text-align: -webkit-center;
 }
 
-.serviceIntroductionWrap {
-  position: relative;
-}
-
-.serviceIntroduction {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50vw;
-  height: 350px;
-  background: rgba(255, 255, 255, 0.87);
+.l-mainBar__news{
+  max-width: 50%;
+  flex: 0 0 50%;
+  display: block;
+  text-align: -webkit-center;
 }

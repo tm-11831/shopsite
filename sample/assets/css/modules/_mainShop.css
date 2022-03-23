@@ -1,0 +1,28 @@
+.l-mainShop__title{
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+  display: flex;
+}
+
+.l-mainShop__titleWord{
+  text-align: center;
+  line-height: 1.6;
+}
+
+.l-mainShop__seller{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.l-mainShop__sellerItem{
+  width: 66.6667%;
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+  margin-right: 0;
+}

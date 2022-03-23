@@ -3,6 +3,10 @@
 @import url('./modules/_hero.css');
 @import url('./modules/_contents.css');
 @import url('./modules/_service.css');
+@import url('./modules/_mainProduct.css');
+@import url('./modules/_mainCaption.css');
+@import url('./modules/_mainContent.css');
+@import url('./modules/_mainShop.css');
 @import url('./modules/_footer.css');
 @import url('./modules/_utils.css');
 @import url('./modules/_jquery.css');
