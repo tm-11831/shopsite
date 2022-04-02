@@ -41,19 +41,6 @@ p {
   line-height: 1.5;
 }
 
-.burger-btn.close .bar_top {
-  transform: translate(-50%, 10px) rotate(45deg);
-  transition: transform 0.3s;
-}
-.burger-btn.close .bar_mid {
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-.burger-btn.close .bar_bottom {
-  transform: translate(-50%, -8px) rotate(-45deg);
-  transition: transform 0.3s;
-}
-
 .igSpacer {
   height: 24px;
   clear: both;
@@ -77,18 +64,6 @@ p {
   font-size: 0.6875rem;
   letter-spacing: 3.3px;
   text-transform: uppercase;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-left {
-  text-align: left;
 }
 
 .slick-prev {
