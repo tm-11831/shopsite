@@ -9,54 +9,68 @@
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="./assets/slick/slick-theme.css" media="screen" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="./assets/js/main.js"></script>
-    <script src="./assets/slick/slick.min.js"></script>
-    <script>
-      $("document").ready(function(){
-        $('.l-mainShop__sellerItem').slick({
-          infinite: true,
-          dots:true,
-          slidesToShow: 3,
-          slidesToScroll: 3
-        })
-      })
-    </script>
   </head>
   <body>
     <div>
       <header class="l-header">
         <div class="l-header__wrapper">
-          <div class = "c-headerList text-left">
-            <div class="c-headerList__item">
-              <div class="c-headerList__itemMenu">
-                <img class="icon-block-wrapper" src="assets/images/icons8-丸みのあるメニュー-30.png">
-                <a class="title">メニュー</a>
+          <div class="nav-content">
+            <nav class="menu">
+              <div class="nav-header">
+                <a class="nav-headerImage" src="https://placehold.jp/154x32.png"></a>
+                <a class="nav-headerClose">× Close</a>
               </div>
-            </div>
-            <div class="c-headerList__item">
-              <div class="c-headerList__itemMenu">
-                <img class="icon-block-wrapper" src="assets/images/icons8-地図ピン-30.png">
-                <a class="title">店舗検索</a>
-              </div>
-            </div>
+              <ul class="nav-list">
+                <li class="nav-item"><a>新作</a></li>
+                <li class="nav-item"><a>メンズ</a></li>
+                <li class="nav-item"><a>ウィメンズ</a></li>
+                <li class="nav-item"><a>ジュニア</a></li>
+                <li class="nav-item"><a>ホーム</a></li>
+                <li class="nav-item"><a>ストーリーズ</a></li>
+                <li class="nav-item"><a>各種サービス</a></li>
+                <li class="nav-item"><a>店舗検索</a></li>
+                <li class="nav-item"><a>ショップニュース</a></li>
+                <li class="nav-item"><a>ログイン</a></li>
+                <li class="nav-item"><a>マイページ</a></li>
+              </ul>
+            </nav>
           </div>
-          <div class = "l-header__wrapperMain text-center">
-            <div class = "l-header__wrapperImage">
-              <img class="titleImage" src="https://placehold.jp/175x40.png">
-            </div>
-          </div>
-          <div class="c-headerList text-right">
-            <div class="c-headerList__item">
-              <div class="c-headerList__itemMenu">
-                <img class="icon-block-wrapper" src="assets/images/icons8-googleウェブ検索-24.png">
-                <a class="title">アイテム検索</a>
+          <div class = "c-headerList">
+            <div class="c-headerList__left">
+              <div class="c-headerList__item">
+                <div class="c-headerList__itemMenu" id="toggle">
+                  <button class="menu-btn" id="toggle-box">
+                    <span class="bar bar-top"></span>
+                    <span class="bar bar-mid"></span>
+                    <span class="bar bar-bottom"></span>
+                  </button>
+                  <a class="icon-title" href="#">メニュー</a>
+                </div>
+              </div>
+              <div class="c-headerList__item">
+                <div class="c-headerList__itemMenu">
+                  <img class="icon-block-wrapper" src="https://placehold.jp/24x24.png">
+                  <a class="icon-title" href="#">店舗検索</a>
+                </div>
               </div>
             </div>
-            <div class="c-headerList__item">
-              <div class="c-headerList__itemMenu">
-                <img class="icon-block-wrapper" src="assets/images/icons8-bus-stop-32.png">
-                <a class="title">カート</a>
+            <div class = "l-header__hero">
+              <div class = "l-header__heroImage">
+                <img class="titleImage" src="https://placehold.jp/175x40.png">
+              </div>
+            </div>
+            <div class="c-headerList__right">
+              <div class="c-headerList__item">
+                <div class="c-headerList__itemMenu">
+                  <img class="icon-block-wrapper" src="https://placehold.jp/24x24.png">
+                  <a class="icon-title" href="#">アイテム検索</a>
+                </div>
+              </div>
+              <div class="c-headerList__item">
+                <div class="c-headerList__itemMenu">
+                  <img class="icon-block-wrapper" src="https://placehold.jp/24x24.png">
+                  <a class="icon-title" href="#">カート</a>
+                </div>
               </div>
             </div>
           </div>
@@ -64,8 +78,8 @@
       </header>
       <main class="l-main">
         <div class="l-mainBar">
-          <div class="l-mainBar__box">
-            <div class="l-mainBar__downroad">
+          <div class="l-mainBar__box container">
+            <div class="l-mainBar__download">
               <a class="btn" href="#">アプリをダウンロード</a>
             </div>
             <div class="l-mainBar__news">
@@ -146,22 +160,99 @@
         </div>
         <div class="l-mainShop">
           <div class="l-mainShop__title">
-            <p class="l-mainShop__titleWord">Best Sellers</p>
+            <div class="l-mainShop__titleWord">
+              <p>Best Sellers</p>
+            </div>
           </div>
           <div class="l-mainShop__seller">
             <div class="l-mainShop__sellerItem">
-              <img class="photo" src="https://placehold.jp/191x267.png">
-              <img class="photo" src="https://placehold.jp/191x267.png">
-              <img class="photo" src="https://placehold.jp/191x267.png">
-              <img class="photo" src="https://placehold.jp/191x267.png">
-              <img class="photo" src="https://placehold.jp/191x267.png">
-              <img class="photo" src="https://placehold.jp/191x267.png">
-              <img class="photo" src="https://placehold.jp/191x267.png">
-              <img class="photo" src="https://placehold.jp/191x267.png">
-              <img class="photo" src="https://placehold.jp/191x267.png">
-              <img class="photo" src="https://placehold.jp/191x267.png">
-              <img class="photo" src="https://placehold.jp/191x267.png">
-              <img class="photo" src="https://placehold.jp/191x267.png">
+              <div class="sellerItem__box">
+                <img class="photo" src="https://placehold.jp/191x267.png">
+                <div class="sellerItem__boxTxt">
+                  <h4>title</h4>
+                  <p>"text"<br>"text-high"<br>60,000</p>
+                </div>
+              </div>
+              <div class="sellerItem__box">
+                <img class="photo" src="https://placehold.jp/191x267.png">
+                <div class="sellerItem__boxTxt">
+                  <h4>title</h4>
+                  <p>"text"<br>"text-high"<br>60,000</p>
+                </div>
+              </div>
+              <div class="sellerItem__box">
+                <img class="photo" src="https://placehold.jp/191x267.png">
+                <div class="sellerItem__boxTxt">
+                  <h4>title</h4>
+                  <p>"text"<br>"text-high"<br>60,000</p>
+                </div>
+              </div>
+              <div class="sellerItem__box">
+                <img class="photo" src="https://placehold.jp/191x267.png">
+                <div class="sellerItem__boxTxt">
+                  <h4>title</h4>
+                  <p>"text"<br>"text-high"<br>60,000</p>
+                </div>
+              </div>
+              <div class="sellerItem__box">
+                <img class="photo" src="https://placehold.jp/191x267.png">
+                <div class="sellerItem__boxTxt">
+                  <h4>title</h4>
+                  <p>"text"<br>"text-high"<br>60,000</p>
+                </div>
+              </div>
+              <div class="sellerItem__box">
+                <img class="photo" src="https://placehold.jp/191x267.png">
+                <div class="sellerItem__boxTxt">
+                  <h4>title</h4>
+                  <p>"text"<br>"text-high"<br>60,000</p>
+                </div>
+              </div>
+              <div class="sellerItem__box">
+                <img class="photo" src="https://placehold.jp/191x267.png">
+                <div class="sellerItem__boxTxt">
+                  <h4>title</h4>
+                  <p>"text"<br>"text-high"<br>60,000</p>
+                </div>
+              </div>
+              <div class="sellerItem__box">
+                <img class="photo" src="https://placehold.jp/191x267.png">
+                <div class="sellerItem__boxTxt">
+                  <h4>title</h4>
+                  <p>"text"<br>"text-high"<br>60,000</p>
+                </div>
+              </div>
+              <div class="sellerItem__box">
+                <img class="photo" src="https://placehold.jp/191x267.png">
+                <div class="sellerItem__boxTxt">
+                  <h4>title</h4>
+                  <p>"text"<br>"text-high"<br>60,000</p>
+                </div>
+              </div>
+              <div class="sellerItem__box">
+                <img class="photo" src="https://placehold.jp/191x267.png">
+                <div class="sellerItem__boxTxt">
+                  <h4>title</h4>
+                  <p>"text"<br>"text-high"<br>60,000</p>
+                </div>
+              </div>
+              <div class="sellerItem__box">
+                <img class="photo" src="https://placehold.jp/191x267.png">
+                <div class="sellerItem__boxTxt">
+                  <h4>title</h4>
+                  <p>"text"<br>"text-high"<br>60,000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="l-mainShop__gender">
+            <div class="l-mainShop__genderTitle">
+              <div class="p-genderTitle__man">
+                <a class="titleMen" href="#">SHOP ALL MEN'S</a>
+              </div>
+              <div class="p-genderTitle__women">
+                <a class="titleWomen" href="#">SHOP ALL WOMEN'S</a>
+              </div>
             </div>
           </div>
         </div>
@@ -171,46 +262,46 @@
           <div class="p-footerList">
             <div class="p-footerService">
               <div class="p-footerService__about">
-                <span class="p-footerService__aboutItem"><a href="#">カスタマーサービス</a></span>
+                <span class="dropdown-btn" href="#">カスタマーサービス</span>
               </div>
-              <div class="p-footerService__list">
-                <a class="p-footerService__listItem" href="#">重要なお知らせ</a>
-                <a class="p-footerService__listItem" href="#">重要なお知らせ</a>
-                <a class="p-footerService__listItem" href="#">重要なお知らせ</a>
-                <a class="p-footerService__listItem" href="#">重要なお知らせ</a>
-                <a class="p-footerService__listItem" href="#">重要なお知らせ</a>
-                <a class="p-footerService__listItem" href="#">重要なお知らせ</a>
-                <a class="p-footerService__listItem" href="#">重要なお知らせ</a>
-                <a class="p-footerService__listItem" href="#">重要なお知らせ</a>
-                <a class="p-footerService__listItem" href="#">重要なお知らせ</a>
-                <a class="p-footerService__listItem" href="#">重要なお知らせ</a>
-                <a class="p-footerService__listItem" href="#">重要なお知らせ</a>
-              </div>
+              <ul class=".p-footerService__listItem">
+                <li><a class="p-footerService__listItem" href="#">重要なお知らせ</a></li>
+                <li><a class="p-footerService__listItem" href="#">重要なお知らせ</a></li>
+                <li><a class="p-footerService__listItem" href="#">重要なお知らせ</a></li>
+                <li><a class="p-footerService__listItem" href="#">重要なお知らせ</a></li>
+                <li><a class="p-footerService__listItem" href="#">重要なお知らせ</a></li>
+                <li><a class="p-footerService__listItem" href="#">重要なお知らせ</a></li>
+                <li><a class="p-footerService__listItem" href="#">重要なお知らせ</a></li>
+                <li><a class="p-footerService__listItem" href="#">重要なお知らせ</a></li>
+                <li><a class="p-footerService__listItem" href="#">重要なお知らせ</a></li>
+                <li><a class="p-footerService__listItem" href="#">重要なお知らせ</a></li>
+                <li><a class="p-footerService__listItem" href="#">重要なお知らせ</a></li>
+              </ul>
             </div>
             <div class="p-footerCustomer">
               <div class="p-footerCustomer__about">
-                <span class="p-footerCustomer__aboutItem"><a href="#">マイアカウント</a></span>
+                <span class=".p-footerCustomer__aboutItem" href="#">マイアカウント</span>
               </div>
-              <div class="p-footerCustomer__list">
-                <a class="p-footerCustomer__listItem" href="#">重要なお知らせ</a>
-                <a class="p-footerCustomer__listItem" href="#">重要なお知らせ</a>
-              </div>
+              <ul class="p-footerCustomer__list">
+                <li><a class="p-footerCustomer__listItem" href="#">重要なお知らせ</a></li>
+                <li><a class="p-footerCustomer__listItem" href="#">重要なお知らせ</a></li>
+              </ul>
             </div>
             <div class="p-footerAbout">
               <div class="p-footerAbout__info">
-                <span class="p-footerAbout__infoItem" href="#">This Productについて</a></span>
+                <span class=".p-footerAbout__infoItem" href="#">This Productについて</span>
               </div>
-              <div class="p-footerAbout__list">
-                <a class="p-footerAbout__listItem" href="#">重要なお知らせ</a>
-                <a class="p-footerAbout__listItem" href="#">重要なお知らせ</a>
-                <a class="p-footerAbout__listItem" href="#">重要なお知らせ</a>
-                <a class="p-footerAbout__listItem" href="#">重要なお知らせ</a>
-                <a class="p-footerAbout__listItem" href="#">重要なお知らせ</a>
-              </div>
+              <ul class=".p-footerAbout__list">
+                <li><a class="p-footerAbout__listItem" href="#">重要なお知らせ</a></li>
+                <li><a class="p-footerAbout__listItem" href="#">重要なお知らせ</a></li>
+                <li><a class="p-footerAbout__listItem" href="#">重要なお知らせ</a></li>
+                <li><a class="p-footerAbout__listItem" href="#">重要なお知らせ</a></li>
+                <li><a class="p-footerAbout__listItem" href="#">重要なお知らせ</a></li>
+              </ul>
             </div>
           </div>
           <div class="p-footerSns">
-            <div class="p-footerIcon">
+            <nav class="p-footerIcon">
               <a class="p-footerIcon__item" href="#" alt="mail">
                 <img src="https://placehold.jp/18x18.png">
               </a>
@@ -229,22 +320,50 @@
               <a class="p-footerIcon__item" href="#" alt="line">
                 <img src="https://placehold.jp/18x18.png">
               </a>
-            </div>
+            </nav>
           </div>
         </div>
         <div class = "l-footerBottom">
-          <div class="container">
-            <div class="l-footerLogo">
-              <img class = "l-footerLogo__item" src="https://placehold.jp/115x24.png" alt = "symbol">
-            </div>
-            <div class="l-footerGuide">
-              <span class="l-footerGuide__item">© Something unknown. </span>
-              <a class="l-footerGuide__item" href="#">ご利用規約</a>
-              <a class="l-footerGuide__item" href="#">個人情報保護方針について</a>
+          <div class="l-footerContainer">
+            <div class="row">
+              <div class="l-footerLogo">
+                <img class = "l-footerLogo__item" src="https://placehold.jp/115x24.png" alt = "symbol">
+              </div>
+              <div class="l-footerGuide">
+                <span class="l-footerGuide__copyWrite">&copy; Something unknown. </span>
+                <a class="l-footerGuide__item" href="#">ご利用規約</a>
+                <a class="l-footerGuide__item" href="#">個人情報保護方針について</a>
+              </div>
             </div>
           </div>
         </div>
       </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+    <script src="./assets/slick/slick.min.js"></script>
+    <script>
+      $("document").ready(function(){
+        $('.l-mainShop__sellerItem').slick({
+          infinite: true,
+          dots:false,
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          arrows: true
+      })
+    });
+    </script>
+    <script>
+      $(function() {
+        $('#toggle').on('click', function() {
+          $('body').toggleClass('is-open');
+          $('#main').toggleClass('overlay');
+        });
+        $(`nav-headerClose`).on('click','.overlay', function() {
+          $('body').removeClass('is-open');
+          $('#main').removeClass('overlay');
+        });
+      });
+    </script>
   </body>
 </html>
