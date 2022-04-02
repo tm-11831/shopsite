@@ -1,28 +1,335 @@
-.l-mainShop__title{
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  width: 100%;
-  display: flex;
+@media screen and (max-width: 576px){
+  .l-main{
+    margin-bottom: 3rem;
+  }
+
+  .l-maniShop{
+    width: 100%;
+    line-height: 2;
+  }
+
+  .l-mainShop__title{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .l-mainShop__titleWord{
+    text-align: center;
+    line-height: 1.6;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .l-mainShop__seller{
+    width: 100%;
+    max-width: 540px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .l-mainShop__sellerItem{
+    width: 66.6667%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sellerItem__box{
+    width: 163px;
+    float: left;
+  }
+
+  .sellerItem__boxTxt{
+    padding: 6%;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .l-mainShop__gender{
+    max-width: 540px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: block;
+    height: 34.45px;
+  }
+
+  .l-mainShop__genderTitle{
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .p-genderTitle__man{
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 50%;
+    flex: 0 0 50%;
+    text-align: center;
+    position: relative;
+  }
+
+  .titleMen {
+    padding: 0.5rem 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    font-size: 10px;
+    position: absolute;
+  }
+
+  .p-genderTitle__women{
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 50%;
+    flex: 0 0 50%;
+    text-align: center;
+    position: relative;
+  }
+
+  .titleWomen {
+    padding: 0.5rem 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    font-size: 10px;
+    position: absolute;
+  }
 }
 
-.l-mainShop__titleWord{
-  text-align: center;
-  line-height: 1.6;
+@media screen and (max-width: 768px){
+  .l-main{
+    margin-bottom: 3rem;
+  }
+
+  .l-maniShop{
+    width: 100%;
+    line-height: 2;
+  }
+
+  .l-mainShop__title{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .l-mainShop__titleWord{
+    text-align: center;
+    line-height: 1.6;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .l-mainShop__seller{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .l-mainShop__sellerItem{
+    width: 66.6667%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sellerItem__box{
+    width: 163px;
+    float: left;
+  }
+
+  .sellerItem__boxTxt{
+    padding: 6%;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .l-mainShop__gender{
+    max-width: 760px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    display: block;
+  }
+
+  .l-mainShop__genderTitle{
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .p-genderTitle__man{
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 50%;
+    flex: 0 0 50%;
+    text-align: center;
+    position: relative;
+  }
+
+  .titleMen {
+    padding: 0.5rem 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    font-size: 10px;
+    position: absolute;
+  }
+
+  .p-genderTitle__women{
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 50%;
+    flex: 0 0 50%;
+    text-align: center;
+    position: relative;
+  }
+
+  .titleWomen {
+    padding: 0.5rem 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    font-size: 10px;
+    position: absolute;
+  }
 }
 
-.l-mainShop__seller{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+@media screen and (min-width: 769px){
+  .l-main{
+    margin-bottom: 3rem;
+  }
 
-.l-mainShop__sellerItem{
-  width: 66.6667%;
-  display: flex;
-  justify-content: center;
-  margin-left: 0;
-  margin-right: 0;
+  .l-maniShop{
+    width: 100%;
+    line-height: 2;
+  }
+
+  .l-mainShop__title{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .l-mainShop__titleWord{
+    text-align: center;
+    line-height: 1.6;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .l-mainShop__seller{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .l-mainShop__sellerItem{
+    width: 66.6667%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sellerItem__box{
+    width: 163px;
+    float: left;
+  }
+
+  .sellerItem__boxTxt{
+    padding: 6%;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .l-mainShop__gender{
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    display: block;
+  }
+
+  .l-mainShop__genderTitle{
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .p-genderTitle__man{
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 50%;
+    flex: 0 0 50%;
+    text-align: center;
+  }
+
+  .titleMen {
+    padding: 0.5rem 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    font-size: 10px;
+    position: absolute;
+  }
+
+  .p-genderTitle__women{
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 50%;
+    flex: 0 0 50%;
+    text-align: center;
+  }
+
+  .titleWomen {
+    padding: 0.5rem 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    font-size: 10px;
+    position: absolute;
+  }
 }
