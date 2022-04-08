@@ -6,15 +6,6 @@ div {
   display: block;
 }
 
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  line-height: 1.6;
-}
-
 .icon-block-wrapper {
   cursor: pointer;
   height: 1.5rem;
@@ -69,7 +60,7 @@ p {
 .slick-prev {
   left: 10px;
   z-index: 1;
-  top: 70%;
+  top: 50%;
 }
 
 .slick-prev:before {
@@ -79,7 +70,7 @@ p {
 .slick-next {
   right: 10px;
   z-index: 1;
-  top: 70%;
+  top: 50%;
 }
 
 .slick-next:before {

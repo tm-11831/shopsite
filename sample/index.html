@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="./assets/slick/slick-theme.css" media="screen" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
     <div>
@@ -126,19 +126,19 @@
           <div class="p-mainProduct">
             <section class="p-mainProduct__box">
               <div class="p-mainProduct__image">
-                <img src="https://placehold.jp/526x657.png" alt="" />
+                <img src="assets/images/patrik-velich-fPWPfm_4feQ-unsplash.jpg" alt="" />
               </div>
               <div class="p-mainProduct__introduction">
-                <p class="titleSpace">MENS</p>
+                <a class="p-mainProduct__introductionTitle">MENS</a>
               </div>
               <div class="igSpacer"></div>
             </section>
             <section class="p-mainProduct__box">
               <div class="p-mainProduct__image">
-                <img src="https://placehold.jp/526x657.png" alt="" />
+                <img src="assets/images/vladimir-yelizarov-qM5Wrz-4rtQ-unsplash.jpg" alt="" />
               </div>
               <div class="p-mainProduct__introduction">
-                <p class="titleSpace">WOMEN'S</p>
+                <a class="p-mainProduct__introductionTitle">WOMEN'S</a>
               </div>
               <div class="igSpacer"></div>
             </section>
@@ -146,19 +146,19 @@
           <div class="p-mainContent">
             <section class="p-mainContent__box">
               <div class="p-mainContent__image">
-                <img src="https://placehold.jp/526x526.png" alt="" />
+                <img src="assets/images/michael-soledad-WCfChKPD2eg-unsplash.jpg" alt="" />
               </div>
               <div class="p-mainContent__introduction">
-                <p class="titleSpace">MEN'S ACCESSORIES</p>
+                <p class="p-mainContent__introductionTitle">MEN'S ACCESSORIES</p>
               </div>
               <div class="igSpacer"></div>
             </section>
             <section class="p-mainContent__box">
               <div class="p-mainContent__image">
-                <img src="https://placehold.jp/526x526.png" alt="" />
+                <img src="assets/images/kelly-sikkema-1Pgq9ZpIatI-unsplash.jpg" alt="" />
               </div>
               <div class="p-mainContent__introduction">
-                <p class="titleSpace">WOMEN'S ACCESSORIES</p>
+                <p class="p-mainContent__introductionTitle">WOMEN'S ACCESSORIES</p>
               </div>
               <div class="igSpacer"></div>
             </section>
@@ -166,28 +166,28 @@
           <div class="p-mainCaption">
             <section class="p-mainCaption__box">
               <div class="p-mainCaption__image">
-                <img src="https://placehold.jp/350x350.png" alt="">
+                <img src="assets/images/adam-niescioruk--_LJY51KrmQ-unsplash.jpg" alt="">
               </div>
               <div class="p-mainCaption__introduction">
-                <p class="title">POP UP SHOP</p>
+                <a class="p-mainCaption__introductionTitle">POP UP SHOP</a>
               </div>
               <div class="igSpacer"></div>
             </section>
             <section class="p-mainCaption__box">
               <div class="p-mainCaption__image">
-                <img src="https://placehold.jp/350x350.png" alt="">
+                <img src="assets/images/mohammed-hassan-fdCvrdYUJsY-unsplash.jpg" alt="">
               </div>
-              <div class="p-mainCaption__introduction">
-                <p class="title">WHAT MAKES YOU HAPPY</p>
+              <div class="p-mainCaption__introduce">
+                <a class="p-mainCaption__introduceTitle">WHAT MAKES YOU HAPPY</a>
               </div>
               <div class="igSpacer"></div>
             </section>
             <section class="p-mainCaption__box">
               <div class="p-mainCaption__image">
-                <img src="https://placehold.jp/350x350.png" alt="">
+                <img src="assets/images/ryoji-iwata-vWfKaO0k9pc-unsplash.jpg" alt="">
               </div>
-              <div class="p-mainCaption__introduction">
-                <p class="title">AW22 PRESENTATION</p>
+              <div class="p-mainCaption__introduce">
+                <a class="p-mainCaption__introduceTitle">AW22 PRESENTATION</a>
               </div>
               <div class="igSpacer"></div>
             </section>
@@ -318,7 +318,7 @@
                 </div>
                 <div class="p-footerCustomer">
                   <div class="p-footerCustomer__about">
-                    <span class=".p-footerCustomer__aboutItem" href="#">マイアカウント</span>
+                    <span class="p-footerCustomer__aboutItem" href="#">マイアカウント</span>
                     <a>⌵</a>
                   </div>
                   <ul class="p-footerCustomer__list">
@@ -328,10 +328,10 @@
                 </div>
                 <div class="p-footerAbout">
                   <div class="p-footerAbout__info">
-                    <span class=".p-footerAbout__infoItem" href="#">This Productについて</span>
+                    <span class="p-footerAbout__infoItem" href="#">This Productについて</span>
                     <a>⌵</a>
                   </div>
-                  <ul class=".p-footerAbout__list">
+                  <ul class="p-footerAbout__list">
                     <li><a class="p-footerAbout__listItem" href="#">重要なお知らせ</a></li>
                     <li><a class="p-footerAbout__listItem" href="#">重要なお知らせ</a></li>
                     <li><a class="p-footerAbout__listItem" href="#">重要なお知らせ</a></li>
@@ -391,9 +391,33 @@
           dots:false,
           slidesToShow: 4,
           slidesToScroll: 4,
-          arrows: true
-      })
-    });
+          arrows: true,
+          responsive:[
+            {
+              breakpoint:992,
+              setting:{
+                infinite: true,
+                dots:false,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                arrows: true,
+                slidesToShow:2,
+              },
+            },
+            {
+              breakpoint:768,
+              setting:{
+                infinite: true,
+                dots:false,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                arrows: true,
+                slidesToShow:1.5,
+              },
+            },
+          ],
+        });
+      });
     </script>
     <script>
       $(document).ready(function() {
