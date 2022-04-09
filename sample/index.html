@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="https://tm-11831.github.io/shopsite/sample/assets/slick/slick.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="https://tm-11831.github.io/shopsite/sample/assets/slick/slick-theme.css" media="screen" />
     <link rel="stylesheet" href="https://tm-11831.github.io/shopsite/sample/assets/css/main.css" />
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   </head>
   <body>
     <div>
@@ -97,7 +98,7 @@
             <div class="c-headerList__right">
               <div class="c-headerList__item">
                 <div class="c-headerList__itemMenu">
-                  <img class="icon-block-wrapper" src="https://placehold.jp/24x24.png">
+                  <p><i class="fa-solid fa-magnifying-glass fa-lg"></i></p>
                   <a class="icon-title" href="#">アイテム検索</a>
                 </div>
               </div>
@@ -382,52 +383,7 @@
       </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="./assets/js/main.js"></script>
     <script src="./assets/slick/slick.min.js"></script>
-    <script>
-      $("document").ready(function(){
-        $('.l-mainShop__sellerItem').slick({
-          infinite: true,
-          dots:false,
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          arrows: true,
-          responsive:[
-            {
-              breakpoint:992,
-              setting:{
-                infinite: true,
-                dots:false,
-                slidesToShow:2,
-                slidesToScroll: 1,
-                arrows: true,
-              },
-            },
-            {
-              breakpoint:768,
-              setting:{
-                infinite: true,
-                dots:false,
-                slidesToShow:1.5,
-                slidesToScroll: 1,
-                arrows: true,
-              },
-            },
-          ],
-        });
-      });
-    </script>
-    <script>
-      $(document).ready(function() {
-        $('#toggle').on('click', function() {
-          $('body').addClass('is-open');
-          $('body').addClass('overlay');
-        });
-        $('#closeBtn').on('click', function() {
-          $('body').removeClass('is-open');
-          $('body').removeClass('overlay');
-        });
-      });
-    </script>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
   </body>
 </html>
