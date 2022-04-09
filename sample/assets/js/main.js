@@ -16,9 +16,9 @@ $("document").ready(function(){
         breakpoint:768,
         setting:{
           slidesToShow:1
-        },
-      },
-    ],
+        }
+      }
+    ]
   });
 });
 
