@@ -77,8 +77,6 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 
   .l-mainShop__sellerItem{
@@ -103,8 +101,6 @@
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
     display: block;
     height: 34.45px;
   }
@@ -449,8 +445,6 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 
   .l-mainShop__sellerItem{
@@ -474,8 +468,6 @@
     max-width: 760px;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
     width: 100%;
     display: block;
   }
@@ -759,8 +751,6 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 
   .l-mainShop__sellerItem{
@@ -784,8 +774,6 @@
     max-width: 960px;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
     width: 100%;
     display: block;
   }
