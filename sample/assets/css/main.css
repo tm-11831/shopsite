@@ -1438,6 +1438,42 @@ margin-left: auto;
 margin-right: 1rem;
 }
 
+.l-mainBar{
+  background-color: #000000;
+  display: block;
+}
+
+.l-mainBar__box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.l-mainBar__download{
+  width: 100%;
+  max-width: 50%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: -15px;
+  margin-left: -15px;
+  text-align: center;
+}
+
+.l-mainBar__news{
+  width: 100%;
+  max-width: 50%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: -15px;
+  margin-left: -15px;
+  text-align: center;
+}
+
 .icon-title{
 margin-top: 6px;
 }
