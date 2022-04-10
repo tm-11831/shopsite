@@ -2,14 +2,6 @@ img{
   width: 100%;
 }
 
-.icon-block-wrapper {
-  cursor: pointer;
-  height: 1.5rem;
-  position: relative;
-  vertical-align: bottom;
-  width: 1.5rem;
-}
-
 .btn {
   cursor: pointer;
   font-size: 0.77rem;
