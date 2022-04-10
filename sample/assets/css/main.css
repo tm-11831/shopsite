@@ -476,7 +476,7 @@
   }
 
   .l-footerGuide__list::before {
-    margin-right: 1rem;
+    margin-left: 1rem;
     content: "|";
   }
 
@@ -531,6 +531,8 @@
   }
 
   .scroll-btn{
+    text-decoration: none;
+    color: #191919;
     cursor: pointer;
   }
 

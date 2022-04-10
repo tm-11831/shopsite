@@ -23,6 +23,11 @@
     max-width: 540px;
   }
 
+  .scroll-btn{
+    text-decoration: none;
+    color: #191919;
+  }
+
   .p-footerList {
     display: flex;
     flex-wrap: wrap;
