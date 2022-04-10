@@ -758,9 +758,9 @@
   }
 
   .l-mainShop__sellerItem{
-    width: 4056px;
-    transition: all 0ms ease 0s;
-    transform: translate3d(0px 0px 0px);
+    width: 66.6667%;
+    display: flex;
+    justify-content: center;
   }
 
   .sellerItem__box{
