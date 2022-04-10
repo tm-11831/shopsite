@@ -342,6 +342,7 @@
   .l-footerGuide {
     min-height: 1;
     margin-top: 0;
+    display: flex;
   }
 
   .l-footerGuide__copyWrite {
@@ -585,6 +586,7 @@
     min-height: 1;
     margin-top: 1rem;
     display: flex;
+    justify-content: center;
   }
 
   .l-footerGuide__copyWrite {
