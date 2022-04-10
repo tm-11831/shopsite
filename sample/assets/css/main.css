@@ -1528,3 +1528,78 @@ height: 100vh;
   margin-left: -15px;
   text-align: center;
 }
+
+img{
+  width: 100%;
+}
+
+.icon-block-wrapper {
+  cursor: pointer;
+  height: 1.5rem;
+  position: relative;
+  vertical-align: bottom;
+  width: 1.5rem;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 0.77rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgba(204, 36, 72, 0.01);
+  border-color: rgba(204, 36, 72, 0);
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.5rem 2rem;
+  line-height: 1.5;
+}
+
+.igSpacer {
+  height: 24px;
+  clear: both;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.span {
+  color: #191919;
+  font-family: Arial, sans-serif;
+  font-size: 0.6875rem;
+  letter-spacing: 3.3px;
+  text-transform: uppercase;
+}
+
+.slick-prev {
+  left: 10px;
+  z-index: 1;
+  top: 50%;
+}
+
+.slick-prev:before {
+  content: "＜";
+}
+
+.slick-next {
+  right: 10px;
+  z-index: 1;
+  top: 50%;
+}
+
+.slick-next:before {
+  content: "＞";
+}
