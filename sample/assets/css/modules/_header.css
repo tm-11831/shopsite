@@ -6,6 +6,10 @@
   .c-headerList__item{
     vertical-align: top;
   }
+
+  .icon-title{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px){

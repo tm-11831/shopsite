@@ -26,7 +26,6 @@
   .p-footerList {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 1.25rem;
@@ -153,7 +152,6 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     position: relative;
-    width: 100%;
     min-height: 1px;
     padding: 2rem 1.5rem;
   }
@@ -185,7 +183,6 @@
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
-    width: 100%;
     max-width: 540px;
   }
 
