@@ -3,13 +3,9 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .p-mainCaption__box{
-    max-width: 100%;
-    flex: 0 0 100%;
     position: relative;
   }
 
@@ -64,8 +60,13 @@
 
   .p-mainCaption__box{
     max-width: 33.33333%;
-    flex: 0 0 33.33333%;
+    display: inline-block;
+    height: 350px;
     position: relative;
+  }
+
+  .p-mainCaption__image img {
+    height: 100%;
   }
 
   .p-mainCaption__introduction{

@@ -2,10 +2,6 @@ img{
   width: 100%;
 }
 
-div {
-  display: block;
-}
-
 .icon-block-wrapper {
   cursor: pointer;
   height: 1.5rem;

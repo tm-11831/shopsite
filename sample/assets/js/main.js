@@ -1,4 +1,4 @@
-$("document").ready(function(){
+$(document).ready(function(){
   $('.l-mainShop__sellerItem').slick({
     infinite: true,
     dots:false,
@@ -8,14 +8,16 @@ $("document").ready(function(){
     responsive:[
       {
         breakpoint:992,
-        setting:{
-          slidesToShow:2
+        settings:{
+          slidesToShow:2,
+          slidesToScroll:1
         },
       },
       {
         breakpoint:768,
-        setting:{
-          slidesToShow:1
+        settings:{
+          slidesToShow:1,
+          slidesToScroll:1
         }
       }
     ]

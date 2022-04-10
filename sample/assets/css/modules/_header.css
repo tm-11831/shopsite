@@ -27,7 +27,6 @@
 .l-header {
 margin-left: auto;
 margin-right: auto;
-width: 100%;
 background: rgba(255, 255, 255, 0.87)
 }
 
@@ -38,7 +37,6 @@ padding-top: 1rem;
 padding-bottom: 1rem;
 margin-left: 0;
 margin-right: 0;
-width: 100%;
 line-height: 2;
 }
 
@@ -54,7 +52,6 @@ width: 100%;
 
 .c-headerList__left{
 display: flex;
-font-size: xx-small;
 text-align: left;
 padding-left: 2rem;
 padding-right: 2rem;
@@ -77,25 +74,15 @@ position: relative;
 text-align: center;
 text-decoration: none;
 display: inline-flex;
-width: auto;
 }
 
 .c-headerList__itemMenu{
-position: relative;
-text-align: center;
 line-height: 1.5;
-font-size: xx-small;
-text-size-adjust: auto;
 display: flex;
 flex-direction: column;
 align-items: center;
 margin-left: auto;
 margin-right: 1rem;
-}
-
-.fa-solid{
-  width: 24px;
-  height: 24px;
 }
 
 .icon-title{
