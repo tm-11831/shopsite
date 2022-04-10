@@ -1324,6 +1324,7 @@ width: 100%;
 .c-headerList__left{
 display: flex;
 text-align: left;
+font-size:xx-small;
 padding-left: 2rem;
 padding-right: 2rem;
 margin-top: 0;
@@ -1332,7 +1333,8 @@ width: 33.33333%;
 
 .c-headerList__right{
 display: flex;
-font-size:xx-small;justify-content: end;
+font-size:xx-small;
+justify-content: end;
 padding-left: 2rem;
 padding-right: 2rem;
 margin-top: 0;
