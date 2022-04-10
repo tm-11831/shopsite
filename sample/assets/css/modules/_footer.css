@@ -181,8 +181,6 @@
   .l-footerContainer {
     margin-right: auto;
     margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
     max-width: 540px;
   }
 
@@ -215,7 +213,6 @@
     padding-right: 15px;
     margin-top: 1rem;
     display: flex;
-    justify-content: center;
   }
 
   .l-footerGuide__copyWrite {
@@ -397,8 +394,6 @@
   .l-footerContainer {
     margin-right: auto;
     margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
     width: 100%;
     max-width: 960px;
   }
@@ -418,9 +413,8 @@
 
   .l-footerGuide {
     min-height: 1;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-top: 0;
+    display: flex;
   }
 
   .l-footerGuide__copyWrite {
@@ -625,6 +619,7 @@
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 0;
+    display: flex;
   }
 
   .l-footerGuide__copyWrite {
