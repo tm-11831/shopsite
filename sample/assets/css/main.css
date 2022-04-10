@@ -530,6 +530,10 @@
     width: 100%;
   }
 
+  .scroll-btn{
+    cursor: pointer;
+  }
+
   .p-footerService {
     line-height: 2;
     text-decoration: none;

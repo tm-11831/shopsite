@@ -36,7 +36,7 @@ $(document).ready(function() {
 });
 
 $(function(){
-  $('scroll-btn').on('click', function(){
-    $("html,body").animate({scrollTop:0},"300");
+  $('#pageTop').click(function(){
+    $('html,body').animate({scrollTop:0},"300");
   });
 });
