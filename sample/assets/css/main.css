@@ -529,7 +529,6 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     position: relative;
-    width: 100%;
     min-height: 1px;
     padding: 2rem 1.5rem;
   }
