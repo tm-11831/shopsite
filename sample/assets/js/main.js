@@ -34,3 +34,9 @@ $(document).ready(function() {
     $('body').removeClass('overlay');
   });
 });
+
+$(function(){
+  $('scroll-btn').on('click', function(){
+    $("html,body").animate({scrollTop:0},"300");
+  });
+});
