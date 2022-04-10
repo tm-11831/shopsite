@@ -10,6 +10,41 @@
 @import url('./modules/_footer.css');
 @import url('./modules/_utils.css');
 @import url('./modules/_jQuery.css'); */
+
+@media screen and (max-width: 456px) {
+  .l-header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    line-height: 2;
+    }
+
+    .c-headerList__left{
+      display: flex;
+      text-align: left;
+      margin-top: 0;
+      width: 33.33333%;
+      }
+
+    .c-headerList__right{
+      display: flex;
+      font-size:xx-small;justify-content: end;
+      margin-top: 0;
+      width: 33.33333%;
+    }
+
+    .c-headerList__itemMenu{
+      line-height: 1.5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      }
+}
+
 @media screen and (min-width: 576px){
   .l-mainBar__box{
     display: flex;
@@ -345,6 +380,11 @@
     display: flex;
   }
 
+  .l-footerGuide__list::before {
+    margin-right: 1rem;
+    content: "|";
+  }
+
   .l-footerGuide__copyWrite {
     margin-left: 1rem;
     text-decoration: none;
@@ -354,11 +394,6 @@
     margin-left: 1rem;
     text-decoration: none;
     color: #191919;
-  }
-
-  .l-footerGuide__item::before {
-    margin-right: 1rem;
-    content: "|";
   }
 }
 
@@ -589,6 +624,11 @@
     justify-content: center;
   }
 
+  .l-footerGuide__list::before {
+    margin-right: 0.5rem;
+    content: "|";
+  }
+
   .l-footerGuide__copyWrite {
     margin: 0;
     font-size: 0.6875rem;
@@ -599,11 +639,6 @@
     margin-left: 0.5rem;
     text-decoration: none;
     color: #191919;
-  }
-
-  .l-footerGuide__item::before {
-    margin-right: 0.5rem;
-    content: "|";
   }
 }
 
@@ -1270,6 +1305,11 @@
     display: flex;
   }
 
+  .l-footerGuide__list::before {
+    margin-right: 1rem;
+    content: "|";
+  }
+
   .l-footerGuide__copyWrite {
     margin-left: 1rem;
     text-decoration: none;
@@ -1279,11 +1319,6 @@
     margin-left: 1rem;
     text-decoration: none;
     color: #191919;
-  }
-
-  .l-footerGuide__item::before {
-    margin-right: 1rem;
-    content: "|";
   }
 }
 
