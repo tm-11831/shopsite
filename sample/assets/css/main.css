@@ -329,8 +329,10 @@
   .row {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     margin-right: -15px;
     margin-left: -15px;
+    width: 95%;
   }
 
   .l-footerLogo {
@@ -1041,8 +1043,6 @@
 
   .p-mainCaption__box{
     max-width: 33.33333%;
-    display: inline-block;
-    height: 350px;
     position: relative;
   }
 

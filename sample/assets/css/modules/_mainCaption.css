@@ -60,8 +60,6 @@
 
   .p-mainCaption__box{
     max-width: 33.33333%;
-    display: inline-block;
-    height: 350px;
     position: relative;
   }
 
