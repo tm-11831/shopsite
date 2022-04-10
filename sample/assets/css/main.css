@@ -12,6 +12,12 @@
 @import url('./modules/_jQuery.css'); */
 
 @media screen and (max-width: 456px) {
+  .l-header {
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.87)
+  }
+
   .l-header__wrapper{
     display: flex;
     justify-content: space-between;
@@ -19,6 +25,16 @@
     margin-left: 0;
     margin-right: 0;
     line-height: 2;
+  }
+
+  .titleItem-image{
+    cursor: pointer;
+  }
+
+  .c-headerList{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
 
   .c-headerList__left{
@@ -33,6 +49,14 @@
     font-size:xx-small;justify-content: end;
     margin-top: 0;
     width: 33.33333%;
+  }
+
+  .c-headerList__item{
+    line-height: 1.5;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
   }
 
   .c-headerList__itemMenu{
@@ -63,8 +87,8 @@
   }
 
   .titleItem-image{
-      cursor: pointer;
-  }
+    cursor: pointer;
+}
 
   .c-headerList{
     display: flex;
