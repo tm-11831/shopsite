@@ -110,17 +110,25 @@
 
   .icon-title{
     margin-top: 6px;
+    text-decoration: none;
+    color: #191919;
+    font-size: xx-small;
   }
 }
 
 .menu-btn{
 display: block;
-width: 24px;
+width: 32px;
 height: 24px;
 position: relative;
 z-index: 3;
 border:none;
 background-color: #fff;
+}
+
+.titleItem{
+  width: 32px;
+  height: auto;
 }
 
 .bar{
