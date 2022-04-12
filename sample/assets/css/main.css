@@ -29,6 +29,10 @@
 
   .titleItem-image{
     cursor: pointer;
+    height: 1.5rem;
+    position: relative;
+    vertical-align: bottom;
+    width: 1.5rem;
   }
 
   .c-headerList{
@@ -88,6 +92,10 @@
 
   .titleItem-image{
     cursor: pointer;
+    height: 1.5rem;
+    position: relative;
+    vertical-align: bottom;
+    width: 1.5rem;
 }
 
   .c-headerList{
@@ -336,6 +344,7 @@
     padding-right: 15px;
     padding-left: 15px;
     max-width: 33.33333%;
+    width: 100%;
   }
 
   .p-footerService__about {
@@ -363,6 +372,7 @@
     padding-right: 15px;
     padding-left: 15px;
     max-width: 33.33333%;
+    width: 100%;
   }
 
   .p-footerCustomer__aboutItem {
@@ -390,6 +400,7 @@
     padding-right: 15px;
     padding-left: 15px;
     max-width: 33.33333%;
+    width: 100%;
   }
 
   .p-footerAbout__infoItem {
@@ -479,11 +490,6 @@
     display: flex;
   }
 
-  .l-footerGuide__list::before {
-    margin-left: 1rem;
-    content: "|";
-  }
-
   .l-footerGuide__copyWrite {
     margin-left: 1rem;
     text-decoration: none;
@@ -493,6 +499,11 @@
     margin-left: 1rem;
     text-decoration: none;
     color: #191919;
+  }
+
+  .l-footerGuide__item::before{
+    margin-left: 1rem;
+    content: "|";
   }
 }
 
@@ -715,11 +726,6 @@
     justify-content: center;
   }
 
-  .l-footerGuide__list::before {
-    margin-left: 0.5rem;
-    content: "|";
-  }
-
   .l-footerGuide__copyWrite {
     margin: 0;
     font-size: 0.6875rem;
@@ -730,6 +736,11 @@
     margin-left: 0.5rem;
     text-decoration: none;
     color: #191919;
+  }
+
+  .l-footerGuide__item::before{
+    margin-left: 0.5rem;
+    content: "|";
   }
 }
 
@@ -1255,6 +1266,7 @@
     padding-right: 15px;
     padding-left: 15px;
     max-width: 33.33333%;
+    width: 100%;
   }
 
   .p-footerService__about {
@@ -1282,6 +1294,7 @@
     padding-right: 15px;
     padding-left: 15px;
     max-width: 33.33333%;
+    width: 100%;
   }
 
   .p-footerCustomer__aboutItem {
@@ -1309,6 +1322,7 @@
     padding-right: 15px;
     padding-left: 15px;
     max-width: 33.33333%;
+    width: 100%;
   }
 
   .p-footerAbout__infoItem {
@@ -1401,11 +1415,6 @@
     display: flex;
   }
 
-  .l-footerGuide__list::before {
-    margin-left: 1rem;
-    content: "|";
-  }
-
   .l-footerGuide__copyWrite {
     margin-left: 1rem;
     text-decoration: none;
@@ -1415,6 +1424,11 @@
     margin-left: 1rem;
     text-decoration: none;
     color: #191919;
+  }
+
+  .l-footerGuide__item::before{
+    margin-left: 1rem;
+    content: "|";
   }
 }
 
