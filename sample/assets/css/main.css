@@ -440,6 +440,7 @@
 
   .p-footerIcon__item {
     font-size: 25px;
+    color: #191919;
   }
 
   .l-footerBottom {
@@ -668,6 +669,7 @@
 
   .p-footerIcon__item {
     font-size: 25px;
+    color: #191919;
   }
 
   .l-footerBottom {
@@ -1357,6 +1359,7 @@
 
   .p-footerIcon__item {
     font-size: 25px;
+    color: #191919;
   }
 
   .l-footerBottom {
@@ -1704,7 +1707,7 @@ img{
 .slick-prev {
   left: 10px;
   z-index: 1;
-  top: 50%;
+  top: 40%;
 }
 
 .slick-prev:before {
@@ -1714,7 +1717,7 @@ img{
 .slick-next {
   right: 10px;
   z-index: 1;
-  top: 50%;
+  top: 40%;
 }
 
 .slick-next:before {
