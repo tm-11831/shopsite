@@ -316,6 +316,8 @@
     display: flex;
     width: 100%;
     padding: 3rem 0;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .p-footerList {
@@ -473,8 +475,6 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-right: -15px;
-    margin-left: -15px;
     width: 95%;
   }
 
@@ -1238,6 +1238,8 @@
     display: flex;
     width: 100%;
     padding: 3rem 0;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .p-footerList__inner {
@@ -1408,8 +1410,6 @@
 
   .l-footerGuide {
     min-height: 1;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-top: 0;
     text-align: left;
     display: flex;
