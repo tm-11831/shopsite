@@ -739,7 +739,7 @@
   }
 
   .l-footerGuide__item::before{
-    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     content: "|";
   }
 }
@@ -1416,7 +1416,6 @@
   }
 
   .l-footerGuide__copyWrite {
-    margin-left: 1rem;
     text-decoration: none;
   }
 
@@ -1427,7 +1426,7 @@
   }
 
   .l-footerGuide__item::before{
-    margin-left: 1rem;
+    margin-right: 1rem;
     content: "|";
   }
 }

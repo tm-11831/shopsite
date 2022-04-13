@@ -40,3 +40,9 @@ $(function(){
     $('html,body').animate({scrollTop:0},"300");
   });
 });
+
+$(function(){
+  $('#movePage').on('click', function(){
+    location.href="https://www.google.com/webhp?hl=ja&sa=X&ved=0ahUKEwjatOn52vbxAhVQ62EKHdsIBhoQPAgI";
+  });
+});
