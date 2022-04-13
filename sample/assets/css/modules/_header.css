@@ -219,6 +219,7 @@ height: 1rem;
 .nav-list{
 list-style: none;
 max-width: 30rem;
+max-height: 647px;
 height: 100%;
 width: 100%;
 }
