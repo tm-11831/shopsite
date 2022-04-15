@@ -43,6 +43,7 @@
 
   .c-headerList__left{
     display: flex;
+    align-items: center;
     text-align: left;
     margin-top: 0;
     width: 33.33333%;
@@ -50,6 +51,7 @@
 
   .c-headerList__right{
     display: flex;
+    align-items: center;
     font-size:xx-small;justify-content: end;
     margin-top: 0;
     width: 33.33333%;
@@ -106,6 +108,7 @@
 
   .c-headerList__left{
     display: flex;
+    align-items: center;
     text-align: left;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -115,6 +118,7 @@
 
   .c-headerList__right{
     display: flex;
+    align-items: center;
     font-size:xx-small;justify-content: end;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1497,6 +1501,10 @@ margin-right: 1rem;
 .icon-title{
 margin-top: 6px;
 } */
+
+.l-header__heroImage{
+  display: flex;
+}
 
 .menu-btn{
 display: block;
