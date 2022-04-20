@@ -1011,6 +1011,7 @@
 
   .p-mainContent__box{
     position: relative;
+    width: 100%;
   }
 
   .p-mainContent__image{
@@ -1018,6 +1019,7 @@
     height: 580px;
     background-image: url(./modules/michael-soledad-WCfChKPD2eg-unsplash.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
   }
 
@@ -1026,6 +1028,7 @@
     height: 580px;
     background-image: url(./modules/kelly-sikkema-1Pgq9ZpIatI-unsplash.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
   }
 
@@ -1057,6 +1060,7 @@
 
   .p-mainCaption__box{
     position: relative;
+    width: 100%;
   }
 
   .p-mainCaption__imageLeft{
@@ -1064,6 +1068,7 @@
     height: 500px;
     background-image: url(./modules/adam-niescioruk--_LJY51KrmQ-unsplash.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
   }
 
@@ -1072,6 +1077,7 @@
     height: 500px;
     background-image: url(./modules/mohammed-hassan-fdCvrdYUJsY-unsplash.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
   }
 
@@ -1080,6 +1086,7 @@
     height: 500px;
     background-image: url(./modules/ryoji-iwata-vWfKaO0k9pc-unsplash.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
   }
 
@@ -1232,6 +1239,7 @@
 
   .p-mainCaption__box{
     max-width: 33.33333%;
+    width: 33.3333%;
     position: relative;
   }
 
