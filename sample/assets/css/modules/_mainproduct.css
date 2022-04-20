@@ -7,6 +7,7 @@
 
   .p-mainProduct__box{
     position: relative;
+    width: 100%;
   }
 
   .p-mainProduct__introduction{
@@ -28,11 +29,19 @@
   .p-mainProduct__image{
     width: 100%;
     height: 650px;
+    background-image: url(./patrik-velich-fPWPfm_4feQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
-  .p-mainProduct__image img{
+  .p-mainProduct__img{
     width: 100%;
-    height: 100%;
+    height: 650px;
+    background-image: url(./vladimir-yelizarov-qM5Wrz-4rtQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
@@ -75,10 +84,16 @@
   .p-mainProduct__image{
     width: 100%;
     height: 650px;
+    background-image: url(./patrik-velich-fPWPfm_4feQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
-  .p-mainProduct__image img{
+  .p-mainProduct__img{
     width: 100%;
-    height: 100%;
+    height: 650px;
+    background-image: url(./vladimir-yelizarov-qM5Wrz-4rtQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }

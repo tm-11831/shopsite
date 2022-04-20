@@ -980,6 +980,7 @@
 
   .p-mainProduct__box{
     position: relative;
+    width: 100%;
   }
 
   .p-mainProduct__introduction{
@@ -998,9 +999,22 @@
     border-color: rgba(255, 255, 255, 1);
   }
 
-  .p-mainProduct__image img {
+  .p-mainProduct__image{
     width: 100%;
-    height: 380px;
+    height: 650px;
+    background-image: url(./patrik-velich-fPWPfm_4feQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .p-mainProduct__img{
+    width: 100%;
+    height: 650px;
+    background-image: url(./vladimir-yelizarov-qM5Wrz-4rtQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .p-mainContent{
@@ -1176,9 +1190,22 @@
     color: #000000;
   }
 
-  .p-mainProduct__image img {
+  .p-mainProduct__image{
     width: 100%;
-    height: 580px;
+    height: 650px;
+    background-image: url(./patrik-velich-fPWPfm_4feQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .p-mainProduct__img{
+    width: 100%;
+    height: 650px;
+    background-image: url(./vladimir-yelizarov-qM5Wrz-4rtQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .p-mainContent{
