@@ -27,6 +27,12 @@
 
   .p-mainProduct__image{
     width: 100%;
+    height: 650px;
+  }
+
+  .p-mainProduct__image img{
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -68,6 +74,11 @@
 
   .p-mainProduct__image{
     width: 100%;
-    position: relative;
+    height: 650px;
+  }
+
+  .p-mainProduct__image img{
+    width: 100%;
+    height: 100%;
   }
 }

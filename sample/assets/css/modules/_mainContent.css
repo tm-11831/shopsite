@@ -11,7 +11,13 @@
 
   .p-mainContent__image{
     width: 100%;
-    height: auto;
+    height: 100%;
+  }
+
+  .p-mainContent__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 
   .p-mainContent__introduction{
@@ -46,6 +52,16 @@
     max-width: 50%;
     flex: 0 0 50%;
     position: relative;
+  }
+
+  .p-mainContent__image{
+    height: 580px;
+    width: 100%;
+  }
+
+  .p-mainContent__image img{
+    width: 100%;
+    height: 100%;
   }
 
   .p-mainContent__introduction{
