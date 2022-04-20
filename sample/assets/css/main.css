@@ -1172,7 +1172,7 @@
   .p-mainContent__image{
     width: 100%;
     height: 580px;
-    background-image: url(./assets/images/michael-soledad-WCfChKPD2eg-unsplash.jpg);
+    background-image: url(./modules/michael-soledad-WCfChKPD2eg-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -1180,7 +1180,7 @@
   .p-mainContent__img{
     width: 100%;
     height: 580px;
-    background-image: url(./assets/images/kelly-sikkema-1Pgq9ZpIatI-unsplash.jpg);
+    background-image: url(./modules/kelly-sikkema-1Pgq9ZpIatI-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
