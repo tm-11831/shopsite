@@ -1016,12 +1016,17 @@
   .p-mainContent__image{
     width: 100%;
     height: 580px;
+    background-image: url(./modules/michael-soledad-WCfChKPD2eg-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
-  .p-mainContent__image img {
+  .p-mainContent__img{
     width: 100%;
-    height: 100%;
-    object-fit: contain;
+    height: 580px;
+    background-image: url(./modules/kelly-sikkema-1Pgq9ZpIatI-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .p-mainContent__introduction{
@@ -1054,15 +1059,28 @@
     position: relative;
   }
 
-  .p-mainCaption__image{
+  .p-mainCaption__imageLeft{
     width: 100%;
-    height: 350px;
+    height: 500px;
+    background-image: url(./modules/adam-niescioruk--_LJY51KrmQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
-  .p-mainCaption__image img {
+  .p-mainCaption__imageCenter{
     width: 100%;
-    height: 100%;
-    object-fit: contain;
+    height: 500px;
+    background-image: url(./modules/mohammed-hassan-fdCvrdYUJsY-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .p-mainCaption__imageRight{
+    width: 100%;
+    height: 500px;
+    background-image: url(./modules/ryoji-iwata-vWfKaO0k9pc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
 
@@ -1217,15 +1235,28 @@
     position: relative;
   }
 
-  .p-mainCaption__image{
+  .p-mainCaption__imageLeft{
     width: 100%;
     height: 350px;
+    background-image: url(./modules/adam-niescioruk--_LJY51KrmQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
-  .p-mainCaption__image img {
+  .p-mainCaption__imageCenter{
     width: 100%;
-    height: 100%;
-    object-fit: contain;
+    height: 350px;
+    background-image: url(./modules/mohammed-hassan-fdCvrdYUJsY-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .p-mainCaption__imageRight{
+    width: 100%;
+    height: 350px;
+    background-image: url(./modules/ryoji-iwata-vWfKaO0k9pc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .p-mainCaption__introduction{
