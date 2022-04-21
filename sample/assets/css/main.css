@@ -1613,6 +1613,10 @@ margin-right: 1rem;
 margin-top: 6px;
 } */
 
+a {
+  text-decoration: none;
+}
+
 .l-header__heroImage{
   display: flex;
 }
